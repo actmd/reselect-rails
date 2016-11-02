@@ -22,7 +22,7 @@ Or install it yourself as:
 
 Add the following code to ``application.js``:
 ```
-//= reselect
+//= require reselect
 ```
 
 ## Development

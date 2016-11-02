@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Rails wrapper for Reselect JavaScript library}
   spec.description   = %q{Rails wrapper for Reselect JavaScript library (https://github.com/reactjs/reselect). The version number of this gem follows the version number of the original JavaScript library.}
   spec.homepage      = "https://github.com/actmd/reselect-rails"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
